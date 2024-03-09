@@ -7,7 +7,7 @@
     "start": "ts-node index.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "ROBOT",
   "license": "ISC",
   "devDependencies": {
     "axios": "^1.6.7",
