@@ -1,0 +1,7 @@
+```
+自動削除: {auto}
+削除までの秒数: {seconds}
+リアクション: {boolean} {reaction}
+コマンド:  {command}
+削除コマンド: {delete}個分メッセージ遡る
+```

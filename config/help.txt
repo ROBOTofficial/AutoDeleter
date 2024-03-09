@@ -1,0 +1,9 @@
+```
+{prefix}help
+{prefix}sec [数字]
+{prefix}auto [on/off]
+{prefix}reaction [on/off]
+{prefix}delete [空白 or 数字]
+
+{subprefix} ←こいつを最初に入れれば削除無効化
+```

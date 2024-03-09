@@ -1,0 +1,12 @@
+{
+	"reaction": true,
+	"reactionStamp": [
+		"🔃",
+		"❌"
+	],
+	"Delete": true,
+	"DefaultDelete": 100,
+	"DeletePrefix": "!",
+	"DeleteSeconds": 20000,
+	"prefix": "#"
+}
