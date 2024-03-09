@@ -20,11 +20,11 @@ npm install
 
 2 settings.jsonをいじる (任意 ※いじらなくてもOK)
 - ここでいじるべきなのは以下のみです。(他はSelfBOTのコマンドで後から変更できます。) <br>
-  → `reactionStamp` - 削除対象のメッセージに付くリアクションを指定します。詳細は[こちら](https://github.com/ROBOTofficial/AutoDeleter/edit/main/README.md#%E4%BD%BF%E3%81%84%E6%96%B9)\(必ず2つ選択してください\) <br>
+  → `reactionStamp` - 削除対象のメッセージに付くリアクションを指定します。詳細は[こちら](https://github.com/ROBOTofficial/AutoDeleter?tab=readme-ov-file#%E4%BD%BF%E3%81%84%E6%96%B9)\(必ず2つ選択してください\) <br>
   → `DefaultDelete` - deleteコマンドを打った時にサーチするメッセージ数を決められます(Max100) <br>
   → `DeletePrefix` - ここにある文字をメッセージの最初に付けるとAutoDeleteの対象外になります。 <br>
   → `prefix` - コマンドの文字を指定します。(複数文字可) <br>
-- より詳細に設定したい場合は[こちら](https://github.com/ROBOTofficial/AutoDeleter/edit/main/README.md#%E8%A9%B3%E7%B4%B0%E8%A8%AD%E5%AE%9A)を見てください <br>
+- より詳細に設定したい場合は[こちら](https://github.com/ROBOTofficial/AutoDeleter/tree/main?tab=readme-ov-file#%E8%A9%B3%E7%B4%B0%E8%A8%AD%E5%AE%9A)を見てください <br>
 **※help.txtやstatus.txtはいじらないでください!挙動がおかしくなる可能性があります!**
 #### スタートする
 ```
@@ -63,6 +63,8 @@ npm start
   →意図していない部分をいじるとエラーにつながる可能性があるので注意してください
   
   →DefaultDelete等に関しては100以上の数値を入れても自動的に100に変換されるので注意してください。
+
+  →reactionStampは2個目が削除中断のリアクションに必ずなります。
 ## 技術解説
 axios → リクエスト系統に利用<br>
 ws → WebSocket系統に利用<br>
