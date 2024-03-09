@@ -1,5 +1,6 @@
 ```
 {prefix}help
+{prefix}status
 {prefix}sec [数字]
 {prefix}auto [on/off]
 {prefix}reaction [on/off]
