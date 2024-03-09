@@ -1,6 +1,7 @@
 # AutoDeleter
 DiscordのSelfBOT用のMessageAutoDeleterです。
 
+**※デフォルトのprefixを #→?に変更しました**
 ## 導入方法
 **※Node.js NPM git等の導入は事前に済んでいる&ある程度使い方は理解している前提で説明します。** <br>
 #### gitを使ってプログラムをインストールします。
