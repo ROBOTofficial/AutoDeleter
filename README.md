@@ -1,7 +1,5 @@
 # AutoDeleter
 DiscordのSelfBOT用のMessageAutoDeleterです。
-
-**※デフォルトのprefixを #→?に変更しました**
 ## 導入方法
 **※Node.js NPM git等の導入は事前に済んでいる&ある程度使い方は理解している前提で説明します。** <br>
 #### gitを使ってプログラムをインストールします。
@@ -46,8 +44,8 @@ npm start
 ![image](https://github.com/ROBOTofficial/AutoDeleter/assets/101011695/bb0a1bba-0e8c-4b17-92c6-30569c74d744) <br>
 - `deleteコマンド` - コマンドを実行したチャンネルの自分のメッセージを削除します。<br>
 ```
-#delete ←statusのDefaultDeleteの数が参照されます
-#delete 30 ←この場合30個前までメッセージをさかのぼって消去します。(最大100)
+?delete ←statusのDefaultDeleteの数が参照されます
+?delete 30 ←この場合30個前までメッセージをさかのぼって消去します。(最大100)
 ```
 - `非削除コマンド` - 最初に非削除コマンド(デフォルトは!)があるメッセージは削除されません。 <br>
 - `削除中断` - 削除中断リアクション(デフォルトは❌)を押すと削除を中断できる。<br>
@@ -66,6 +64,9 @@ npm start
   →DefaultDelete等に関しては100以上の数値を入れても自動的に100に変換されるので注意してください。
 
   →reactionStampは2個目が削除中断のリアクションに必ずなります。
+## 改変データ
+- 公開してから1時間後<br>
+デフォルトprefixを#→?に変更
 ## 技術解説
 axios → リクエスト系統に利用<br>
 ws → WebSocket系統に利用<br>
