@@ -35,15 +35,15 @@ npm start
 ## 使い方
 デフォルトのprefixが#なので画像等は#で統一されています。(実際はほかでも大丈夫です)<br>
 - `helpコマンド` - 使い方わからなくなったら、大体これ見れば大丈夫 <br>
-![image](https://github.com/ROBOTofficial/AutoDeleter/assets/101011695/789d2354-b241-4169-997b-9cbb233d4137) <br>
+![image](https://github.com/ROBOTofficial/AutoDeleter/assets/101011695/f3bc4cbc-6736-4e17-a3ef-efe41061a2b5) <br>
 - `statusコマンド` - 現在の設定が分かります。 <br>
-![image](https://github.com/ROBOTofficial/AutoDeleter/assets/101011695/4ca3c3bd-1f86-4959-b8d8-481425b85eeb) <br>
+![image](https://github.com/ROBOTofficial/AutoDeleter/assets/101011695/2124d96c-cca5-4a3c-baba-7e2a3a7fa149) <br>
 - `secコマンド` - 削除までの秒数を指定します。 <br>
-![image](https://github.com/ROBOTofficial/AutoDeleter/assets/101011695/5ba7507b-3d1e-4a2e-b3ae-d4848b4748e5) <br>
+![image](https://github.com/ROBOTofficial/AutoDeleter/assets/101011695/17d28b2e-0da9-4941-a203-544c34040ea1) <br>
 - `autoコマンド` - 自動削除のON/OFFを切り替えます。 <br>
-![image](https://github.com/ROBOTofficial/AutoDeleter/assets/101011695/f8863333-daf6-4bf2-9bab-92b88663bcff) <br>
+![image](https://github.com/ROBOTofficial/AutoDeleter/assets/101011695/9249a92a-91a8-4e74-8195-101cb29e894c) <br>
 - `reactionコマンド` - リアクションのON/OFFを切り替えます。 <br>
-![image](https://github.com/ROBOTofficial/AutoDeleter/assets/101011695/bb03de3b-09d1-4047-8627-3241cb4da7e3) <br>
+![image](https://github.com/ROBOTofficial/AutoDeleter/assets/101011695/bb0a1bba-0e8c-4b17-92c6-30569c74d744) <br>
 - `deleteコマンド` - コマンドを実行したチャンネルの自分のメッセージを削除します。<br>
 ```
 #delete ←statusのDefaultDeleteの数が参照されます
