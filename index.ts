@@ -140,7 +140,7 @@ class SelfBOT {
                             fs.writeFileSync("./config/settings.json",JSON.stringify(this.Config,null,"\t"))
                             this.MessageSend(`\`\`\`自動削除を${args[1]}にしました。\`\`\``,message,true)
                         }
-                        if (this.Config.Delete) if (!message.d.content.startsWith(this.Config.DeletePrefix)) this.MessageDelete(message,this.Config.DeleteSeconds)
+                        if (this.Config.Delete && !message.d.content.startsWith(this.Config.DeletePrefix)) this.MessageDelete(message,this.Config.DeleteSeconds)
                     } else if (message.t === "MESSAGE_REACTION_REMOVE" && message.d.user_id === this.SelfBotID && message.d.emoji.name === this.Config.reactionStamp[1]) {
                         this.DeleteMessageList = this.DeleteMessageList.filter(value => value !== message.d.message_id)
                         this.RemoveReaction(message,this.Config.reactionStamp[0])
